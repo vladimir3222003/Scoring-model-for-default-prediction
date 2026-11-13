@@ -1,0 +1,70 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python -m pd_model.data.make_dataset
+    deps:
+    - path: data/raw/credit_card_default.csv
+      hash: md5
+      md5: 238ac45ce71fb5e0c1b2ba6d8214655c
+      size: 3677209
+    - path: src/pd_model/data/make_dataset.py
+      hash: md5
+      md5: 2245dd1bec59bf5a8d3c96248c871846
+      size: 1876
+    - path: src/pd_model/data/validation.py
+      hash: md5
+      md5: 554b0d1b66164e7eb2933ea0f2ebc923
+      size: 5141
+    - path: src/pd_model/features/build_features.py
+      hash: md5
+      md5: 87ec9b4814f8d4d3ee97a3dace4f0be0
+      size: 1291
+    outs:
+    - path: data/processed/test.csv
+      hash: md5
+      md5: 6e3b2cd92da0c6619580d6c3ab212911
+      size: 1041107
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 1db91a19823e3fe5da1011e2a0ad3727
+      size: 4166750
+  train:
+    cmd: python -m pd_model.models.train
+    deps:
+    - path: data/processed/test.csv
+      hash: md5
+      md5: 6e3b2cd92da0c6619580d6c3ab212911
+      size: 1041107
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 1db91a19823e3fe5da1011e2a0ad3727
+      size: 4166750
+    - path: src/pd_model/models/pipeline.py
+      hash: md5
+      md5: 75722835573c78a294be297cf6057d2f
+      size: 1819
+    - path: src/pd_model/models/train.py
+      hash: md5
+      md5: c6e65b2c3fdda46c2c0a817a6515e5bc
+      size: 8956
+    outs:
+    - path: models/pd_model.joblib
+      hash: md5
+      md5: 1a16ae6fe3543d110a96f7d0cda11cd8
+      size: 6730
+    - path: models/pd_model_gradient_boosting.joblib
+      hash: md5
+      md5: 84bf5db8effceaa590744740b64d6e45
+      size: 275901
+    - path: reports/figures/roc_curve_comparison.png
+      hash: md5
+      md5: 0ce6ed4e8f1ef6755e45634bad4ff9fc
+      size: 178466
+    - path: reports/metrics.json
+      hash: md5
+      md5: 3bcc769d28cb35ac9c84fc551e210dbf
+      size: 309
+    - path: reports/model_comparison.csv
+      hash: md5
+      md5: 82158d848c393d31aeee830ce1309eb7
+      size: 224

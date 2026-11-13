@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+.venv-*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Testing
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# MLflow
+mlruns/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+
+# Great Expectations
+data/expectations/gx/uncommitted/

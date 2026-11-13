@@ -1,0 +1,12 @@
+pytest
+black
+flake8
+pandas
+numpy
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+pydantic
+httpx2
+great-expectations==1.25.0

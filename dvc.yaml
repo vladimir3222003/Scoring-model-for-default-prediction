@@ -1,0 +1,27 @@
+stages:
+  prepare:
+    cmd: python -m pd_model.data.make_dataset
+    deps:
+      - data/raw/credit_card_default.csv
+      - src/pd_model/data/make_dataset.py
+      - src/pd_model/data/validation.py
+      - src/pd_model/features/build_features.py
+    outs:
+      - data/processed/train.csv
+      - data/processed/test.csv
+
+  train:
+    cmd: python -m pd_model.models.train
+    deps:
+      - src/pd_model/models/train.py
+      - src/pd_model/models/pipeline.py
+      - data/processed/train.csv
+      - data/processed/test.csv
+    outs:
+      - models/pd_model.joblib
+      - models/pd_model_gradient_boosting.joblib
+      - reports/figures/roc_curve_comparison.png
+      - reports/model_comparison.csv
+    metrics:
+      - reports/metrics.json:
+          cache: false

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "7f891682-e3e2-4308-9533-585fd651bb91",
+      "name": "credit_data_asset"
+    },
+    "batch_definition": {
+      "id": "e57a3888-bbda-4089-b8e3-de22bb15922e",
+      "name": "credit_data_batch"
+    },
+    "datasource": {
+      "id": "373b816e-26e8-4d3b-9b4d-d2823d2c918b",
+      "name": "credit_data_source"
+    }
+  },
+  "id": "afcf38ab-6ebd-4107-bc27-a1d039b43a7b",
+  "name": "credit_data_validation",
+  "suite": {
+    "id": "60870868-e062-4b3c-9d7c-eda9d9c652e1",
+    "name": "credit_data_suite"
+  }
+}

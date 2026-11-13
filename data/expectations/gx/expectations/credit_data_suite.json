@@ -1,0 +1,741 @@
+{
+  "expectations": [
+    {
+      "id": "a2dec41c-915d-4191-8952-0378305d3f6f",
+      "kwargs": {
+        "column": "ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "f356ada4-7248-4d43-9916-d6d625ba4d33",
+      "kwargs": {
+        "column": "ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "99b1ba9f-de27-4ddc-b25a-fcefa7b76692",
+      "kwargs": {
+        "column": "LIMIT_BAL"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "1bfbd463-b7c1-4ecd-aaab-da196a8a299f",
+      "kwargs": {
+        "column": "LIMIT_BAL"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f8e098cd-61c3-4ea8-a5df-2b4ea84437a4",
+      "kwargs": {
+        "column": "SEX"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "f29d7ec6-5528-4af9-b676-3b6133acf78d",
+      "kwargs": {
+        "column": "SEX"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "25507439-d342-4636-b0ac-a694b44f3346",
+      "kwargs": {
+        "column": "EDUCATION"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "dc8b016e-e43a-4970-81fa-cc808350e1d3",
+      "kwargs": {
+        "column": "EDUCATION"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "8fc972ba-c54f-4fca-82cb-82d49b0ab565",
+      "kwargs": {
+        "column": "MARRIAGE"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "cb3e8864-8810-4d01-89e5-cad19ab4462f",
+      "kwargs": {
+        "column": "MARRIAGE"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "21672055-8940-4a85-ae35-1ad5878aaa7b",
+      "kwargs": {
+        "column": "AGE"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "9bd3becd-faba-4eb2-b067-ca637eb8df1f",
+      "kwargs": {
+        "column": "AGE"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f323df66-735c-4298-8f36-fcde14bdb98d",
+      "kwargs": {
+        "column": "PAY_0"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "36a5684b-25c5-4ee0-be66-d74ba2f5631b",
+      "kwargs": {
+        "column": "PAY_0"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f6235c5f-bc4a-43a9-910b-8b8ae4059383",
+      "kwargs": {
+        "column": "PAY_2"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "8861f571-a917-4333-b3c8-dc459835dc3e",
+      "kwargs": {
+        "column": "PAY_2"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "9f435e88-739f-4166-9882-7b766cd5f155",
+      "kwargs": {
+        "column": "PAY_3"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "2bd5ca8c-3cbe-45e8-a354-82b75efe730c",
+      "kwargs": {
+        "column": "PAY_3"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "90863de7-2f82-4f6a-90a7-1f7e766b42c0",
+      "kwargs": {
+        "column": "PAY_4"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "06bc9678-5793-4ae3-9468-5968366978b1",
+      "kwargs": {
+        "column": "PAY_4"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "77e68105-95e0-4b53-9e7a-6a7e12e6cc5f",
+      "kwargs": {
+        "column": "PAY_5"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "23e304d9-44d2-4492-8fb0-daab6c9edc81",
+      "kwargs": {
+        "column": "PAY_5"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "5ca6a52f-fb3b-41ae-b1ea-5b6baa880c92",
+      "kwargs": {
+        "column": "PAY_6"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "57d38a9e-53c8-4658-be72-7331fea81830",
+      "kwargs": {
+        "column": "PAY_6"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "c92abd04-3d89-40b5-bd72-9e99650e6845",
+      "kwargs": {
+        "column": "BILL_AMT1"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d0081b43-9921-4f06-b3f6-ba4d2ba7b84c",
+      "kwargs": {
+        "column": "BILL_AMT1"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ef90e450-64a9-4ac7-be5a-9c3ba768b7b4",
+      "kwargs": {
+        "column": "BILL_AMT2"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "72932610-a672-4a47-b316-aaacd14972cb",
+      "kwargs": {
+        "column": "BILL_AMT2"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "bb994a50-7ef6-42a0-b71e-1cb281250036",
+      "kwargs": {
+        "column": "BILL_AMT3"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "0d82adb9-e17d-4379-9ef0-6d352f480ae8",
+      "kwargs": {
+        "column": "BILL_AMT3"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "54a3333d-d21c-4643-a33a-4263b479ee04",
+      "kwargs": {
+        "column": "BILL_AMT4"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "5a309c5c-54e4-4e6e-a7c3-10252231f9fb",
+      "kwargs": {
+        "column": "BILL_AMT4"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "0a1cc6c4-f491-448a-ac24-eda6e14882ad",
+      "kwargs": {
+        "column": "BILL_AMT5"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "f6dce70e-0141-404f-9ae0-1032c89c1de8",
+      "kwargs": {
+        "column": "BILL_AMT5"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d6d9f230-1408-41e1-a04c-65c70b6c43ac",
+      "kwargs": {
+        "column": "BILL_AMT6"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "7797140d-c3d9-4504-8b2d-191e07ebae59",
+      "kwargs": {
+        "column": "BILL_AMT6"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "95212602-4e9a-4a4b-90de-72710a91ed04",
+      "kwargs": {
+        "column": "PAY_AMT1"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "c6d0b071-c617-4a7a-9241-4ffde956e89b",
+      "kwargs": {
+        "column": "PAY_AMT1"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "7f71b528-e57a-40a1-aad0-9cd058294a9d",
+      "kwargs": {
+        "column": "PAY_AMT2"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "1c1fc8b0-2dce-4cd5-8a39-98fa50b4296c",
+      "kwargs": {
+        "column": "PAY_AMT2"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d20b054c-8771-4d95-b5ee-64bc77ba107e",
+      "kwargs": {
+        "column": "PAY_AMT3"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "6cb3593b-5d04-46e0-8935-8df78980d578",
+      "kwargs": {
+        "column": "PAY_AMT3"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "9e4fe7cb-1848-45ee-a28c-39834c9218f5",
+      "kwargs": {
+        "column": "PAY_AMT4"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "662d9718-3f1d-41b0-912a-7def2fafa178",
+      "kwargs": {
+        "column": "PAY_AMT4"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "95104d53-dc88-4f62-a8e5-cb61282cf608",
+      "kwargs": {
+        "column": "PAY_AMT5"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "59fca426-0b96-4b29-8222-c997ca4307f1",
+      "kwargs": {
+        "column": "PAY_AMT5"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "7f5be6d3-dc54-4fba-a311-7d2a45595acb",
+      "kwargs": {
+        "column": "PAY_AMT6"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "e49964cd-6adc-4269-a0b6-fdce26eaa96d",
+      "kwargs": {
+        "column": "PAY_AMT6"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "3513df6c-41ce-4631-aa20-d95b8a6cc756",
+      "kwargs": {
+        "column": "default.payment.next.month"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "8ac62fc2-f78e-472d-a848-9dbf23715f29",
+      "kwargs": {
+        "column": "default.payment.next.month"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "ac12b029-06a9-4f78-9e84-a7942a4c75dc",
+      "kwargs": {
+        "column": "ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "0081e996-b358-490a-830e-4f2c5c599996",
+      "kwargs": {
+        "column": "LIMIT_BAL",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "86c33f46-289d-4324-8ba4-4d73192252b2",
+      "kwargs": {
+        "column": "SEX",
+        "value_set": [
+          1,
+          2
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "d3a32a6f-8c5a-4b2f-8aa0-c5ac1d8bbd13",
+      "kwargs": {
+        "column": "EDUCATION",
+        "value_set": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "769f52a4-e226-494e-8d73-3158a6c5812c",
+      "kwargs": {
+        "column": "MARRIAGE",
+        "value_set": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "1567e865-ab28-4218-917d-d4e570dccc3e",
+      "kwargs": {
+        "column": "AGE",
+        "max_value": 100.0,
+        "min_value": 18.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "2171f10b-4c0a-4059-a347-197cc7cf4a54",
+      "kwargs": {
+        "column": "PAY_0",
+        "value_set": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "6a7efe95-641f-4a77-b729-c94f67fdd49d",
+      "kwargs": {
+        "column": "PAY_2",
+        "value_set": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "d1b98cf9-1ea2-421e-941b-5ade3a496b64",
+      "kwargs": {
+        "column": "PAY_3",
+        "value_set": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "cb255167-f7ad-4668-9678-f8dd749df618",
+      "kwargs": {
+        "column": "PAY_4",
+        "value_set": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "8f0f911d-8f87-499c-85e3-2ad570d07667",
+      "kwargs": {
+        "column": "PAY_5",
+        "value_set": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "abb2557d-9600-4d06-85c5-c677b216e8fe",
+      "kwargs": {
+        "column": "PAY_6",
+        "value_set": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "38002c11-9cfd-41e9-a01e-30bd26b35933",
+      "kwargs": {
+        "column": "PAY_AMT1",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "4f9e3ec3-59da-46ce-a0a7-12c6150ea08a",
+      "kwargs": {
+        "column": "PAY_AMT2",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "27d0507e-7bf4-4d26-afea-da802f854b1f",
+      "kwargs": {
+        "column": "PAY_AMT3",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "a0d3dc75-3b97-4d22-b6cc-d32c9aa27d3e",
+      "kwargs": {
+        "column": "PAY_AMT4",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "afee2dfa-ccf6-4371-9117-172732c87303",
+      "kwargs": {
+        "column": "PAY_AMT5",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "8680f4d6-df2f-4ba2-971f-6cebf2c45771",
+      "kwargs": {
+        "column": "PAY_AMT6",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "b9270563-8fd0-49ff-8cf1-e464e9bc04f0",
+      "kwargs": {
+        "column": "default.payment.next.month",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    }
+  ],
+  "id": "60870868-e062-4b3c-9d7c-eda9d9c652e1",
+  "meta": {
+    "great_expectations_version": "1.25.0"
+  },
+  "name": "credit_data_suite",
+  "notes": null
+}
