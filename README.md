@@ -28,35 +28,15 @@ Gradient Boosting Classifier.
 
 **Результаты на тестовой выборке**
 
-Метрика
+Метрики   Logistic Regression   Gradient Boosting
 
-Logistic Regression
+ROC-AUC        0.7518                0.7798
 
-Gradient Boosting
+Precision      0.4312                0.4596
 
-ROC-AUC
+Recall         0.6164                0.6255
 
-0.7518
-
-0.7798
-
-Precision
-
-0.4312
-
-0.4596
-
-Recall
-
-0.6164
-
-0.6255
-
-F1-score
-
-0.5074
-
-0.5298
+F1-score       0.5074                0.5298
 
 Gradient Boosting показал лучшие результаты по всем представленным метрикам на тестовой выборке.
 
