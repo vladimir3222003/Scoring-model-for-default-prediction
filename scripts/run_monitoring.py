@@ -26,34 +26,29 @@ def main():
     X_test = test[feature_columns]
 
     monitored_features = [
-        "LIMIT_BAL", "AGE", "DELAY_COUNT",
-        "MAX_DELAY", "AVG_BILL_AMT", "AVG_PAY_AMT"]
+        "LIMIT_BAL",
+        "AGE",
+        "DELAY_COUNT",
+        "MAX_DELAY",
+        "AVG_BILL_AMT",
+        "AVG_PAY_AMT",
+    ]
 
     results = []
 
-    
     for feature in monitored_features:
         psi_value = calculate_psi(X_train[feature].values, X_test[feature].values)
 
-        results.append({
-            "feature": feature,
-            "psi": psi_value
-        })
+        results.append({"feature": feature, "psi": psi_value})
 
-    #вероятности дефолта
+    # вероятности дефолта
     train_pd = model.predict_proba(X_train)[:, 1]
     test_pd = model.predict_proba(X_test)[:, 1]
 
-
-    
     pd_psi = calculate_psi(train_pd, test_pd)
 
-    results.append({
-        "feature": "Predicted_PD",
-        "psi": pd_psi
-    })
+    results.append({"feature": "Predicted_PD", "psi": pd_psi})
 
-    
     report = pd.DataFrame(results)
 
     def interpret_psi(value):
@@ -66,7 +61,6 @@ def main():
 
     report["status"] = report["psi"].apply(interpret_psi)
 
-    
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     report.to_csv(REPORT_PATH, index=False)
 
