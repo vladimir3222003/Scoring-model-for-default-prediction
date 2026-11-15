@@ -31,5 +31,8 @@ jobs:
       - name: Check code with Flake8
         run: python -m flake8 src tests --max-line-length=88 --extend-ignore=E203,W503
 
+      - name: Validate data with Great Expectations
+        run: python -m pytest tests/test_validation.py -v
+
       - name: Run tests
         run: python -m pytest -v
