@@ -25,3 +25,14 @@ stages:
     metrics:
       - reports/metrics.json:
           cache: false
+
+  monitoring:
+    cmd: python scripts/run_monitoring.py
+    deps:
+      - scripts/run_monitoring.py
+      - src/pd_model/monitoring/psi.py
+      - data/processed/train.csv
+      - data/processed/test.csv
+      - models/pd_model_gradient_boosting.joblib
+    outs:
+      - reports/monitoring/psi_report.csv

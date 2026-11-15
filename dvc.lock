@@ -68,3 +68,31 @@ stages:
       hash: md5
       md5: 82158d848c393d31aeee830ce1309eb7
       size: 224
+  monitoring:
+    cmd: python scripts/run_monitoring.py
+    deps:
+    - path: data/processed/test.csv
+      hash: md5
+      md5: 6e3b2cd92da0c6619580d6c3ab212911
+      size: 1041107
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 1db91a19823e3fe5da1011e2a0ad3727
+      size: 4166750
+    - path: models/pd_model_gradient_boosting.joblib
+      hash: md5
+      md5: 84bf5db8effceaa590744740b64d6e45
+      size: 275901
+    - path: scripts/run_monitoring.py
+      hash: md5
+      md5: 3b8aac5b611b2ba764a0b07e3ae462a1
+      size: 2005
+    - path: src/pd_model/monitoring/psi.py
+      hash: md5
+      md5: 489d86ea278191ad05c1bd0e4ad2f0fd
+      size: 1613
+    outs:
+    - path: reports/monitoring/psi_report.csv
+      hash: md5
+      md5: caeebd6bf75f0a79d095269766a75b7d
+      size: 422
